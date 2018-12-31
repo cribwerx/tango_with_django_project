@@ -13,5 +13,5 @@ def index(request):
 
 
 def about(request):
-    html = "About section" + ' <a href="/rango/">Index</a>'
-    return HttpResponse(html)
+    context_dict = {'boldmessage' : "tutorial has been put together by cribwerx."}
+    return render(request, 'rango/about.html', context=context_dict)

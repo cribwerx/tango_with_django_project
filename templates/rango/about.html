@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        <title>Rango</title>
+    </head>
+    
+    <body>
+        <h1>Beans says...</h1>
+        <div>
+            Get your slimy, webbed phalanges off my boots! <br />
+            <strong>{{ boldmessage }}</strong><br />
+        </div>
+        <div>
+            <a href="/rango/index/">index<a/a><br />
+            <img src="{% static "images/Beans.png"%}"
+                alt="Picture of Beans" /> 
+            <img /> cat <img src="{{ MEDIA_URL}}cat.jpg" 
+                alt="Picture of cat" />
+                
+        </div>
+    </body>
+
+</html>
