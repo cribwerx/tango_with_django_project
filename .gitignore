@@ -1,0 +1,4 @@
+# ignores listed files and folders for commits
+
+# Logs and databases #
+*.sqlite
